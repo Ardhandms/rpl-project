@@ -1,16 +1,15 @@
 import Image from 'next/image'
 import React from 'react'
+import SectionHeader from './SectionHeader'
 
 function Homepage() {
   return (
     <section>
       <div className='text-center py-1 mb-8'>
-        <h3 className='uppercase text-grey-500 font-semibold leading-4'>
-          Cek Testimoni
-        </h3>
-        <h2 className='text-primary font-bold text-4xl italic'>
-          Kami
-        </h2>
+        <SectionHeader 
+          subHeader={'Cek Testimoni'}
+          mainHeader={'Kami'}
+        />
       </div>
 
       <div className='h-full left-0 right-0 w-full'>
@@ -34,61 +33,61 @@ function Homepage() {
 
       {/*Testi*/}
       <div className='grid grid-cols-3 gap-10 mt-[50px]'>
-        <div className='bg-gray-300 p-4 rounded-lg text-center'>
+        <div className='bg-gray-300 p-4 rounded-lg text-center group hover:bg-white hover:shadow-2xl hover:shadow-black-75 transition-all'>
           <img src='/Sepatuhero.jpg'/>
-          <h4 className='font-semibold text-xl my-2'>Compass Retrograde Black N White</h4>
+          <h4 className='font-semibold text-xl my-2'>Compass Retrograde Black & White</h4>
           <p className='text-grey-500 text-sm'>Deep Cleaning</p>
-          <a href=''>
+          <a href='https://www.instagram.com/p/CxSIi8DSsyJ/?utm_source=ig_web_copy_link&igshid=MzRlODBiNWFlZA=='>
           <button className='mt-4 bg-primary text-white rounded-full px-8 py-2'>
             Lihat Testi
           </button>
           </a>
         </div>
-        <div className='bg-gray-300 p-4 rounded-lg text-center'>
+        <div className='bg-gray-300 p-4 rounded-lg text-center group hover:bg-white hover:shadow-2xl hover:shadow-black-75 transition-all'>
           <img src='/Sepatuhero.jpg'/>
           <h4 className='font-semibold text-xl my-2'>Ventela Low White</h4>
           <p className='text-grey-500 text-sm'>Deep Cleaning</p>
-          <a href=''>
+          <a href='https://www.instagram.com/p/CxqPbtOSxOu/?utm_source=ig_web_copy_link&igshid=MzRlODBiNWFlZA=='>
           <button className='mt-4 bg-primary text-white rounded-full px-8 py-2'>
             Lihat Testi
           </button>
           </a>
         </div>
-        <div className='bg-gray-300 p-4 rounded-lg text-center'>
+        <div className='bg-gray-300 p-4 rounded-lg text-center group hover:bg-white hover:shadow-2xl hover:shadow-black-75 transition-all'>
           <img src='/Sepatuhero.jpg'/>
           <h4 className='font-semibold text-xl my-2'>Nike Dunk Panda</h4>
           <p className='text-grey-500 text-sm'>Deep Cleaning</p>
-          <a href=''>
+          <a href='https://www.instagram.com/p/CxYXiZxSBEq/?utm_source=ig_web_copy_link&igshid=MzRlODBiNWFlZA=='>
           <button className='mt-4 bg-primary text-white rounded-full px-8 py-2'>
             Lihat Testi
           </button>
           </a>
         </div>
-        <div className='bg-gray-300 p-4 rounded-lg text-center'>
+        <div className='bg-gray-300 p-4 rounded-lg text-center group hover:bg-white hover:shadow-2xl hover:shadow-black-75 transition-all'>
           <img src='/Sepatuhero.jpg'/>
-          <h4 className='font-semibold text-xl my-2'>Compass Retrograde Black N White</h4>
+          <h4 className='font-semibold text-xl my-2'>Converse Chuck Taylor 70s</h4>
           <p className='text-grey-500 text-sm'>Deep Cleaning</p>
-          <a href=''>
+          <a href='https://www.instagram.com/p/CyGa-9rS5do/?utm_source=ig_web_copy_link&igshid=MzRlODBiNWFlZA=='>
           <button className='mt-4 bg-primary text-white rounded-full px-8 py-2'>
             Lihat Testi
           </button>
           </a>
         </div>
-        <div className='bg-gray-300 p-4 rounded-lg text-center'>
+        <div className='bg-gray-300 p-4 rounded-lg text-center group hover:bg-white hover:shadow-2xl hover:shadow-black-75 transition-all'>
           <img src='/Sepatuhero.jpg'/>
-          <h4 className='font-semibold text-xl my-2'>Compass Retrograde Black N White</h4>
+          <h4 className='font-semibold text-xl my-2'>Compass Velocity</h4>
           <p className='text-grey-500 text-sm'>Deep Cleaning</p>
-          <a href=''>
+          <a href='https://www.instagram.com/p/CygeLUASB7S/?utm_source=ig_web_copy_link&igshid=MzRlODBiNWFlZA=='>
           <button className='mt-4 bg-primary text-white rounded-full px-8 py-2'>
             Lihat Testi
           </button>
           </a>
         </div>
-        <div className='bg-gray-300 p-4 rounded-lg text-center'>
+        <div className='bg-gray-300 p-4 rounded-lg text-center group hover:bg-white hover:shadow-2xl hover:shadow-black-75 transition-all'>
           <img src='/Sepatuhero.jpg'/>
-          <h4 className='font-semibold text-xl my-2'>Compass Retrograde Black N White</h4>
-          <p className='text-grey-500 text-sm'>Deep Cleaning</p>
-          <a href=''>
+          <h4 className='font-semibold text-xl my-2'>Converse Chuck Taylor Low</h4>
+          <p className='text-grey-500 text-sm'>Fast Cleaning</p>
+          <a href='https://www.instagram.com/p/CxQoMcOyegH/?utm_source=ig_web_copy_link&igshid=MzRlODBiNWFlZA=='>
           <button className='mt-4 bg-primary text-white rounded-full px-8 py-2'>
             Lihat Testi
           </button>
